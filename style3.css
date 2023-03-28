@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+ul.header-menu {
+  list-style-type: none;
+  margin: auto;
+}
+
+header.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.header-menu {
+  display: flex;
+  padding-right: 100px;
+  align-items: center;
+}
+
+li.li-top {
+  padding-right: 30px;
+  color: rgb(0, 12, 45);
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 20px;
+}/*# sourceMappingURL=style3.css.map */
