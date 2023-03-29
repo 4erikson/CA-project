@@ -41,4 +41,52 @@ a {
 
 a:hover {
   color: white;
+}
+
+.main-languages-div {
+  margin-left: 500px;
+  margin-top: 250px;
+}
+
+.languages-div {
+  display: flex;
+  align-items: center;
+  width: 1500px;
+}
+
+#languages-div1 {
+  margin-bottom: 100px;
+}
+
+#languages-div2 {
+  margin-bottom: 100px;
+}
+
+#images {
+  width: 180px;
+  opacity: 80%;
+}
+
+.languages {
+  color: white;
+}
+
+.language-name {
+  font-size: 80px;
+  margin: 0px;
+}
+
+.language-full-name {
+  font-size: 35px;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+.languages-container {
+  width: 500px;
+}
+
+.description {
+  font-size: 25px;
+  font-style: normal;
 }/*# sourceMappingURL=style3.css.map */
