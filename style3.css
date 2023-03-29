@@ -3,7 +3,10 @@
 }
 
 body {
+  margin: 0px;
   background-color: white;
+  background-image: url(pics/backg-img1.jpg);
+  background-size: cover;
 }
 
 ul.header-menu {
@@ -12,20 +15,30 @@ ul.header-menu {
 }
 
 header.header-wrapper {
+  height: 80px;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(62, 60, 60);
 }
 
 ul.header-menu {
   display: flex;
-  padding-right: 100px;
   align-items: center;
+  gap: 50px;
 }
 
 li.li-top {
-  padding-right: 30px;
-  color: rgb(0, 12, 45);
+  font-family: "Allerta Stencil", sans-serif;
+  font-family: "Play", sans-serif;
   font-size: 25px;
   font-weight: bold;
-  margin-right: 20px;
+}
+
+a {
+  color: rgb(236, 227, 227);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }/*# sourceMappingURL=style3.css.map */
