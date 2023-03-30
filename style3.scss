@@ -38,31 +38,27 @@ a:hover {
 }
 
 .main-languages-div {
-    margin-left: 500px;
-    margin-top: 250px;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 .languages-div {
     display: flex;
     align-items: center;
-    width: 1500px
+    width: 1250px
 }
 
-#languages-div1 {
-    margin-bottom: 100px;
+.margin-bottom {
+    margin-bottom: 2%;
 }
 
 #languages-div2 {
-    margin-bottom: 100px;
+    width: 1325px;
 }
 
 #images {
-    width: 180px;
+    width: 150px;
     opacity: 80%;
-}
-
-.languages {
-    color: white;
 }
 
 .language-name {
@@ -76,22 +72,83 @@ a:hover {
     margin-bottom: 25px;
 }
 
-.languages-container {
-    width: 500px;
+.description-list {
+margin-left:auto;
 }
-// .description-list-1 {
-//     margin-left: 100px;
-// }
 
-// .description-list-2 {
-//     margin-left: 150px;
-// }
-
-// .description-list-3 {
-//     margin-left: 200px;
-// }
+.languages {
+    color: white;
+}
 
 .description {
-    font-size: 25px;
+    font-size: 23px;
     font-style: normal;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.main-point {
+    font-style:italic;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+
+@media (max-width: 1487px) {
+    .main-languages-div {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #images {
+        width: 95px;
+        opacity: 80%;
+    }
+
+    .language-name {
+        font-size: 50px;
+        margin: 0px;
+    }
+
+    .language-full-name {
+        font-size: 20px;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+    
+    .languages-div {
+        width: 780px
+    }
+
+    #languages-div2 {
+        width: 836px;
+    }
+
+    .description {
+        font-size: 18px;
+        font-style: normal;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .main-point {
+        font-style:italic;
+        font-size: 20px;
+        list-style-type: none;
+    }
+}
+
+@media (max-width: 1028px) {
+    .languages-div {
+        width: 384px;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    #languages-div2 {
+        width: 387px;
+    }
+
+    .languages-div {
+    flex-wrap: wrap;
+    }
 }
