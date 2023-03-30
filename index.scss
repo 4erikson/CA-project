@@ -19,6 +19,7 @@ ul.header-menu {
     gap: 50px;
     list-style-type: none;
     margin: auto;
+    padding: 0px;
 }
 
 li.li-top {
@@ -168,5 +169,19 @@ margin-left:auto;
         font-weight: bold;
     }
 
-    
+    #images {
+        width: 55px;
+        opacity: 80%;
+    }
+
+    .language-name {
+        font-size: 21px;
+        margin: 0px;
+    }
+
+    .language-full-name {
+        font-size: 14px;
+        margin: 0px;
+        margin-bottom: 0px;
+    }
 }
