@@ -9,22 +9,18 @@ body {
   background-size: cover;
 }
 
-ul.header-menu {
-  list-style-type: none;
-  margin: auto;
-}
-
 header.header-wrapper {
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   background-color: rgb(62, 60, 60);
 }
 
 ul.header-menu {
   display: flex;
-  align-items: center;
   gap: 50px;
+  list-style-type: none;
+  margin: auto;
 }
 
 li.li-top {
@@ -35,7 +31,7 @@ li.li-top {
 }
 
 a {
-  color: rgb(236, 227, 227);
+  color: rgb(184, 195, 214);
   text-decoration: none;
 }
 
