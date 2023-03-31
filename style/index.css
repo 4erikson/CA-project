@@ -31,13 +31,17 @@ li.li-top {
   font-weight: bold;
 }
 
-a {
+a.header-link {
   color: rgb(184, 195, 214);
   text-decoration: none;
 }
 
-a:hover {
+a.header-link:hover {
   color: white;
+}
+
+.languages-link {
+  text-decoration: none;
 }
 
 .main-languages-div {
@@ -80,7 +84,7 @@ a:hover {
 }
 
 .languages {
-  color: white;
+  color: rgb(204, 221, 239);
 }
 
 .description {
